@@ -5,3 +5,9 @@ Os Primeiros trechos do livro Software Engineering at Google, Oreilly, destacam 
 
 # Segundo tópico 
 O segundo trecho do livro, faz um resumo do que se precisa para aprimorar o ciclo de trabalho de um "Programador", e como tornar mais sustentável e rigoroso com normas e disciplinas, ele cita 3 exemplos de variáveis, tais como: tempo e mudanças, escala e crescimento, decisões e custos
+
+# Exemplos de TradeOff
+
+- 1 Exemplo, caso python e java: simplicidade x integrações
+- 2 Exemplo, caso servidores: custo x segurança
+- 3 Exemplo, espaço - tempo, um algoritimo faz maior uso de cpu e memória em contra partida levando menos tempo 
