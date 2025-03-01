@@ -13,4 +13,8 @@ O segundo trecho do livro, faz um resumo do que se precisa para aprimorar o cicl
   
 - 2 Exemplo, caso servidores: custo x segurança -> Quando falamos de Servidores, tanto de pequena a larga escala, existe um dilema entre o recurso investido interferir diretamente na integridade de um, como por exemplo, um servidor que possui Proxy, rede bem mapeada e permissões bem estabelecidas, estão sucetíveis a menos ataques, porém isso tudo tem um custo elevado, em contra partida um servidor mais 'Caseiro' de baixo custo, tende a ser mais sucetível a ataques.
   
-- 3 Exemplo, espaço - tempo, um algoritimo faz maior uso de cpu e memória em contra partida levando menos tempo 
+- 3 Exemplo, espaço - tempo, um algoritimo faz maior uso de cpu e memória em contra partida levando menos tempo
+
+
+
+## EXEMPLO DE DIAGRAMA UML ##
