@@ -18,3 +18,6 @@ O segundo trecho do livro, faz um resumo do que se precisa para aprimorar o cicl
 
 
 ## EXEMPLO DE DIAGRAMA UML ##
+
+
+![ModeloExercicioBertoti](https://github.com/user-attachments/assets/5fe0a89f-334b-4fa8-8e36-bf27853790d7)
