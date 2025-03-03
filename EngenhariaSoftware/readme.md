@@ -21,3 +21,186 @@ O segundo trecho do livro, faz um resumo do que se precisa para aprimorar o cicl
 
 
 ![ModeloExercicioBertoti](https://github.com/user-attachments/assets/5fe0a89f-334b-4fa8-8e36-bf27853790d7)
+
+##PROJETO JAVA MERCADO##
+
+## Classe Mercado
+```
+package projetoMercado;
+
+import java.util.List;
+import java.util.LinkedList;
+
+public class Mercado {
+	
+	private List<Produto> produtos = new LinkedList<Produto>();
+	
+	public void addProduto(Produto produto) {
+		produtos.add(produto);
+	}
+	
+	public List<Produto> getProdutos(){
+		return produtos;
+	}
+	
+	public List<Produto> buscarProdutoNome(String nome){
+		List<Produto> encontrados = new LinkedList<Produto>();
+		for (Produto produto:produtos) {
+			if(produto.getNome().equals(nome)) encontrados.add(produto);
+		}
+		return encontrados;
+		
+	}
+	
+	//Lista do Estoque, baseado no fornecedor
+	private List<Estoque> estoques = new LinkedList<Estoque>();
+	
+	public void addEstoque(Estoque estoque) {
+		estoques.add(estoque);
+	}
+	
+	public List<Estoque> getEstoques(){
+		return estoques;
+	}
+	
+	public List<Estoque> buscarEstoqueFornecedor(String fornecedor){
+		List<Estoque> encontradosF = new LinkedList<Estoque>();
+		for (Estoque estoque:estoques) {
+			if(estoque.getFornecedor().equals(fornecedor)) encontradosF.add(estoque);
+		}
+		return encontradosF;
+		
+	}
+```
+
+##Classe Produto 
+```
+package projetoMercado;
+
+public class Produto {
+	private String nome; 
+	private String tipo; 
+		
+	public Produto(String nome, String tipo) {
+		this.nome = nome; 
+		this.tipo = tipo; 
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+}
+```
+
+##Classe Estoque 
+```
+package projetoMercado;
+
+public class Estoque {
+	private int quantidade;
+	private String fornecedor; 
+	
+	public Estoque(int quantidade, String fornecedor) {
+		this.quantidade = quantidade; 
+		this.fornecedor = fornecedor;
+	}
+
+	public int getQuantidade() {
+		return quantidade;
+	}
+
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+
+	public String getFornecedor() {
+		return fornecedor;
+	}
+
+	public void setFornecedor(String fornecedor) {
+		this.fornecedor = fornecedor;
+	}
+	
+
+}
+```
+
+##Classe Teste (produto)
+```
+package projetoMercado;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import java.util.List;
+
+class Teste {
+
+	@Test
+	void test() {
+		
+		Mercado projetoMercado = new Mercado();
+		projetoMercado.addProduto(new Produto("Arroz", "Alimento"));
+		
+		assertEquals(projetoMercado.getProdutos().size(),1);
+		
+		List<Produto> produtosEncontrados = projetoMercado.buscarProdutoNome("Arroz");
+		
+		assertEquals(produtosEncontrados.get(0).getTipo(), "Alimento");
+
+	}
+
+}
+```
+
+##Classe TesteEstoque 
+```
+package projetoMercado;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import java.util.List;
+
+class TesteEstoque {
+
+	@Test
+	void test() {
+		
+		Mercado projetoMercado = new Mercado();
+		projetoMercado.addEstoque(new Estoque(12, "Jose"));
+		
+		assertEquals(projetoMercado.getEstoques().size(),1);
+		
+		List<Estoque> estoquesConsultados = projetoMercado.buscarEstoqueFornecedor("Jose");
+		
+		assertEquals(estoquesConsultados.get(0).getQuantidade(), 12);
+
+	}
+
+}
+```
+
+## Demonstração de testes 
+
+![image](https://github.com/user-attachments/assets/48693156-ba3b-4458-a24d-c8f1afea522e)
+
+![image](https://github.com/user-attachments/assets/14d31d35-78d5-4373-b70b-3567840af8e1)
+
+
+
