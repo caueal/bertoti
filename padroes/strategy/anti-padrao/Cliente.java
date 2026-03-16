@@ -8,7 +8,6 @@ public class Cliente {
         this.idade = idade;
     }
 
-
     public void emprestar(){
         System.out.println("Empréstimo realizado");
     };
