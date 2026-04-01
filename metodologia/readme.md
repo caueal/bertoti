@@ -1,6 +1,4 @@
-## Meus Projetos
-
-### Em 2024-3
+### API 2024-2
 
 ### Empresa Parceira: [Altave]()
 
@@ -8,10 +6,9 @@
 Foi nos proposto pelo cliente Altave, o desenvolvimento de uma plataforma semelhante a um LinkedIn Interno, onde é possível cadastrar talentos e competências de colaboradores.
 O objetivo foi facilitar o processo de gestão e busca de talentos dentro da empresa Altave, conectando perfis e competências de forma eficiente.
 
-
 ### Solução Entregue pela Equipe:
 
-A equipe desenvolveu uma aplicação que permitia aos Colaboradores, cadastrarem seus perfis e competências, possuindo hierarquias dentro dos usuários, um coordenador interno consegue ver os talentos de diversos funcionários, e se for de interesse, manter esse colaborador em monitoramento, para uma possível realocação no time, também foi implementado um relatório, onde superiores conseguem ver os talentos mais comum e separar por áreas. 
+A equipe desenvolveu uma aplicação que permite aos Colaboradores, cadastrarem seus perfis e competências, possuindo hierarquias dentro dos usuários, um coordenador interno consegue ver os talentos de diversos funcionários, e se for de interesse, manter esse colaborador em monitoramento, para uma possível realocação no time, também foi implementado um relatório, onde superiores conseguem ver os talentos mais comum e separar por áreas. 
 
 [Repositório do Projeto ](https://github.com/DataTechApi/DataSkill)
 
