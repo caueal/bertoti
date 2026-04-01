@@ -23,35 +23,20 @@ A equipe desenvolveu uma aplicação que permite aos Colaboradores, cadastrarem 
 
 #### Contribuições Pessoais
 
-<details>
-  <summary>Atuei como Product Owner</summary>
-    Esse código cria uma interface gráfica simples para uma tela de login usando a biblioteca PySimpleGUI.
-    Define o tema visual da interface (LightGreen1) para determinar as cores e o estilo.
-    É montada uma estrutura que organiza os elementos visuais, como caixas de texto, campos de entrada, um botão, e uma opção para salvar o login.
+> - **Product Owner (PO)** : Atuei como intermediador entre a equipe e o cliente, sendo responsável por entender as necessidades apresentadas, esclarecer requisitos e garantir que as funcionalidades desenvolvidas estivessem alinhadas com as expectativas da empresa parceira. Também auxiliei na priorização das tarefas e no direcionamento das entregas da equipe.
 
-</details>
+> - **Comunicação com o Cliente** : Participei diretamente das interações com o cliente, coletando feedbacks, refinando requisitos e garantindo que a solução desenvolvida atendesse ao problema proposto.
 
-<details>
-  <summary>Configuração da interface da tela de login</summary>
-    <img src="./assets/gui-login-api1.png" alt="Descrição da imagem">
-    Esse código cria uma interface gráfica simples para uma tela de login usando a biblioteca PySimpleGUI.
-    Define o tema visual da interface (LightGreen1) para determinar as cores e o estilo.
-    É montada uma estrutura que organiza os elementos visuais, como caixas de texto, campos de entrada, um botão, e uma opção para salvar o login.
+> - **Modelagem do Banco de Dados (MER)**: Contribuí na criação e estruturação do Modelo Entidade-Relacionamento (MER), ajudando a definir as entidades, relacionamentos e regras de negócio necessárias para representar corretamente as competências e perfis dos colaboradores dentro da plataforma.
 
-</details>
-
-<details>
-  <summary>Configuração da lógica da tela de login</summary>
-    <img src="./assets/logica-login-api1.png" alt="Descrição da imagem">
-    Esse código adiciona a lógica funcional à interface de login criada no tópico anterior. Ele fica em um loop contínuo, aguardando interações do usuário com a janela.
-</details>
+> - **Implementação de Design Pattern** : Implementei o padrão de projeto Flyweight Pattern, com o objetivo de otimizar o uso de memória e evitar a criação desnecessária de objetos repetidos dentro do sistema.
 
 
+#### Hard Skills utilizadas
 
-#### Hard Skills
-
-- **Python** : Sei fazer com autonomia
-- **Notion** : Sei fazer com autonomia
+- **MER**
+- **SpringBoot**
+- **Design Pattern(Flyweight)**
 
 
 #### Soft Skills
