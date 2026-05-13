@@ -1,46 +1,86 @@
 ### API 2024-2
 
-### Empresa Parceira: [Altave]()
+### Empresa Parceira: [Altave](https://altave.com.br/)
 
-### Problema:
-Foi nos proposto pelo cliente Altave, o desenvolvimento de uma plataforma semelhante a um LinkedIn Interno, onde é possível cadastrar talentos e competências de colaboradores.
-O objetivo foi facilitar o processo de gestão e busca de talentos dentro da empresa Altave, conectando perfis e competências de forma eficiente.
+---
 
-### Solução Entregue pela Equipe:
+## Problema
 
-A equipe desenvolveu uma aplicação que permite aos Colaboradores, cadastrarem seus perfis e competências, possuindo hierarquias dentro dos usuários, um coordenador interno consegue ver os talentos de diversos funcionários, e se for de interesse, manter esse colaborador em monitoramento, para uma possível realocação no time, também foi implementado um relatório, onde superiores conseguem ver os talentos mais comum e separar por áreas. 
+Foi proposto pela empresa parceira Altave o desenvolvimento de uma plataforma semelhante a um **LinkedIn interno**, voltada para o cadastro e gerenciamento de talentos e competências dos colaboradores.
 
-[Repositório do Projeto ](https://github.com/DataTechApi/DataSkill)
+O principal objetivo do projeto era facilitar a identificação de profissionais dentro da empresa, permitindo a conexão entre perfis, habilidades e áreas de atuação de forma eficiente e estratégica.
 
-#### Tecnologias Utilizadas
-> - **Java**: Utilizado no desenvolvimento do backend, proporcionando flexibilidade e facilidade de manutenção na lógica do sistema.
-> - **SpringBoot**: Framework utilizado para o desenvolvimento do BackEnd
-> - **Angular**: Utilizado para design e interface, sendo o pilar do FrontEnd
-> - **MySql**: Utilizado para armazenar e gerenciar os dados do projeto de forma simples e eficaz.
-> - **Git e GitHub**: Essenciais para controle de versão e colaboração entre os membros da equipe, garantindo o gerenciamento eficiente do código.
-> - **Swagger**: Ferramenta usada para gerenciar e visualizar os EndPoint utilizados na aplicação.
+---
 
+## Solução Desenvolvida pela Equipe
 
-#### Contribuições Pessoais
+A equipe desenvolveu uma aplicação web que permite aos colaboradores cadastrarem seus perfis profissionais, competências e experiências.
 
-> - **Product Owner (PO)** : Atuei como intermediador entre a equipe e o cliente, sendo responsável por entender as necessidades apresentadas, esclarecer requisitos e garantir que as funcionalidades desenvolvidas estivessem alinhadas com as expectativas da empresa parceira. Também auxiliei na priorização das tarefas e no direcionamento das entregas da equipe.
+O sistema possui diferentes níveis hierárquicos de usuários, permitindo que coordenadores e gestores visualizem talentos de diferentes equipes, acompanhem colaboradores de interesse e monitorem possíveis oportunidades de realocação interna.
 
-> - **Comunicação com o Cliente** : Participei diretamente das interações com o cliente, coletando feedbacks, refinando requisitos e garantindo que a solução desenvolvida atendesse ao problema proposto.
+Além disso, foi implementado um módulo de relatórios gerenciais, possibilitando a análise das competências mais recorrentes dentro da empresa e a segmentação dessas informações por áreas e setores.
 
-> - **Modelagem do Banco de Dados (MER)**: Contribuí na criação e estruturação do Modelo Entidade-Relacionamento (MER), ajudando a definir as entidades, relacionamentos e regras de negócio necessárias para representar corretamente as competências e perfis dos colaboradores dentro da plataforma.
+### Funcionalidades Principais
 
-> - **Implementação de Design Pattern** : Implementei o padrão de projeto Flyweight Pattern, com o objetivo de otimizar o uso de memória e evitar a criação desnecessária de objetos repetidos dentro do sistema.
+- Cadastro de perfis profissionais e competências;
+- Sistema de hierarquia entre usuários;
+- Monitoramento de talentos para realocação interna;
+- Relatórios de competências por área;
+- Busca estratégica de colaboradores.
 
+---
 
-#### Hard Skills utilizadas
+## Repositório do Projeto
 
-- **MER**
-- **SpringBoot**
-- **Design Pattern(Flyweight)**
+[DataSkill - GitHub](https://github.com/DataTechApi/DataSkill)
 
+---
 
-#### Soft Skills
+## Tecnologias Utilizadas
 
-**Comunicação**: Exercitei minhas habilidades de comunicação ao interagir frequentemente com a equipe, transmitindo a visão do cliente e alinhando expectativas. Mantive um diálogo aberto e constante com o cliente para entender suas necessidades e garantir que as funcionalidades desenvolvidas atendessem às suas expectativas.
+> - **Java**: Utilizado no desenvolvimento do backend, oferecendo robustez, flexibilidade e facilidade de manutenção.
+> - **Spring Boot**: Framework utilizado para a construção da API e implementação das regras de negócio.
+> - **Angular**: Utilizado no desenvolvimento do frontend e da interface da aplicação.
+> - **MySQL**: Responsável pelo armazenamento e gerenciamento dos dados do sistema.
+> - **Flyway**: Utilizado para versionamento e gerenciamento das migrations do banco de dados.
+> - **Git e GitHub**: Ferramentas utilizadas para versionamento e colaboração entre os membros da equipe.
+> - **Swagger**: Utilizado para documentação, visualização e testes dos endpoints da API.
 
-**Autodidatismo** : busquei adquirir conhecimentos sobre tecnologias novas, como Spring Boot, que não tinha familiaridade anteriormente. 
+---
+
+## Contribuições Pessoais
+
+> ### **Product Owner (PO)**
+> Atuei como intermediador entre a equipe de desenvolvimento e o cliente, sendo responsável pelo levantamento de requisitos, alinhamento de expectativas e priorização das entregas. Também acompanhei o desenvolvimento das funcionalidades para garantir aderência às necessidades apresentadas pela empresa parceira.
+
+> ### **Comunicação com o Cliente**
+> Participei ativamente das reuniões e interações com o cliente, coletando feedbacks, refinando requisitos e garantindo que a solução estivesse alinhada aos objetivos do projeto.
+
+> ### **Modelagem do Banco de Dados (MER)**
+> Contribuí na elaboração do Modelo Entidade-Relacionamento (MER), auxiliando na definição das entidades, relacionamentos e regras de negócio necessárias para representar corretamente os perfis e competências dos colaboradores.
+
+> ### **Versionamento de Banco de Dados**
+> Trabalhei com o **Flyway** para gerenciamento e versionamento das migrations SQL, garantindo maior controle, padronização e rastreabilidade das alterações realizadas no banco de dados durante o desenvolvimento do projeto.
+
+---
+
+## Hard Skills Utilizadas
+
+- **MER (Modelagem Entidade-Relacionamento)**
+- **Spring Boot**
+- **Flyway**
+- **Desenvolvimento Backend**
+- **Modelagem de Banco de Dados**
+
+---
+
+## Soft Skills
+
+### **Comunicação**
+Desenvolvi minhas habilidades de comunicação ao atuar constantemente no alinhamento entre cliente e equipe, garantindo clareza na transmissão de requisitos, expectativas e objetivos do projeto.
+
+### **Trabalho em Equipe**
+Participei ativamente das decisões do projeto em conjunto com a equipe, colaborando na organização das tarefas e na construção da solução.
+
+### **Autodidatismo**
+Busquei aprender de forma autônoma novas tecnologias utilizadas no projeto, especialmente o Spring Boot, ampliando meus conhecimentos em desenvolvimento backend.
