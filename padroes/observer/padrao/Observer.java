@@ -1,5 +1,5 @@
 package padroes.observer.padrao;
-
+// Observer
 interface Observer {
-    void update(String message);
+    void atualizar(String mensagem);
 }

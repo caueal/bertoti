@@ -1,20 +1,24 @@
 package padroes.observer.padrao;
 
 public class Main {
-    public static void main(String[] args) {
-        Observado observado = new Observado();
 
-        Usuario usuario1 = new Usuario("Joao");
-        Usuario usuario2 = new Usuario("Jose");
+    public static void main(String[] args){
 
-        observado.adicionarObserver(usuario1);
-        observado.adicionarObserver(usuario2);
+        Loja loja = new Loja();
 
-        observado.notificarObservers("Nova atualização disponível!");
+        Cliente c1 =
+                new Cliente("Ana");
 
-        observado.removerObserver(usuario1);
+        Cliente c2 =
+                new Cliente("Carlos");
 
-        observado.notificarObservers("Outra atualização disponível!");
+        loja.adicionar(c1);
+        loja.adicionar(c2);
+
+        loja.notificar(
+            "Promoção 50%"
+        );
+
     }
-    
+
 }
