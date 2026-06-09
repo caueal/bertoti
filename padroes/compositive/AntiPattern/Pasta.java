@@ -6,7 +6,7 @@ class Pasta {
 
     private String nome;
 
-    // Separando listas por tipo
+    // separa lista pelo tipo de hierarquia de poastas
     private List<Arquivo> arquivos =
             new ArrayList<>();
 
